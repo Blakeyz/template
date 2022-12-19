@@ -84,6 +84,7 @@
 	transform: translateY(-50%);
 }
 .sidemenu {
+	top: 70px;
 	width: 100%;
 	right: -100vw;
 	position: fixed;
