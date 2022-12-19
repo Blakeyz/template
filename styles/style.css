@@ -35,6 +35,7 @@ body {
 .cos {
 	height: 100vh;
 	background-color: lightgray;
+	overflow: hidden;
 }
 .footer {
 	justify-content: center;
