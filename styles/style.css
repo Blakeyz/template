@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 body {
-	overflow: hidden;
+	overflow-x: hidden;
 	width: 100vw;
 }
 .header,
@@ -16,10 +16,6 @@ body {
 	padding: 0px 0px 0px 5px;
 	color: white;
 	width: 100%;
-}
-.footer {
-	justify-content: center;
-	height: 50px;
 }
 .header,
 .footer,
@@ -38,6 +34,10 @@ body {
 	overflow-y: scroll;
 }
 .cos {
-	height: 60vh;
+	height: 100vh;
 	background-color: lightgray;
+}
+.footer {
+	justify-content: center;
+	height: 50px;
 }
