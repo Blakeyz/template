@@ -27,7 +27,7 @@ body {
 }
 .header {
 	justify-content: space-between;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 2fr;
 	height: 70px;
 	font-size: 1.2rem;
 	position: fixed;
@@ -44,4 +44,9 @@ body {
 .footer {
 	justify-content: center;
 	height: 50px;
+}
+@media only screen and (max-width: 600px) {
+	.header {
+		grid-template-columns: 2fr 1fr;
+	}
 }
